@@ -16,6 +16,8 @@ const Navbar = () => {
         <div
           onClick={toggleMode}
           className={darkMode ? 'toggle toggled' : 'toggle'}
+          //please explain that line to me?
+          //it's some kind of if-else statement but not clear
         />
       </div>
     </nav>
